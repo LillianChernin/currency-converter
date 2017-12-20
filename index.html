@@ -5,14 +5,18 @@
   </head>
   <body>
     <form name="currency converter">
-      $<input type="text"></input>
-      <input type="button" value="EUR"></input>
-      <input type="button" value="GBP"></input>
-      <input type="button" value="CNY"></input>
-      <input type="button" value="JPY"></input>
+      $<input id="USD" type="text"></input>
+      <input id="EUR" type="button" value="EUR"></input>
+      <input id="GBP" type="button" value="GBP"></input>
+      <input id="CNY" type="button" value="CNY"></input>
+      <input id="JPY" type="button" value="JPY"></input>
     </form>
     <span id="output_amount"></span>
     <span id="output_currency"></span>
+    <script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
